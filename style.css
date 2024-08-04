@@ -1,0 +1,75 @@
+:root {
+  background-color: #F5F4F0;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#page {
+  width: 1120px;
+  margin: 80px auto;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+img {
+  border-radius: 28px;
+  width: 100%;
+  object-fit: cover;
+  margin: 40px 0px 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1B1B1B;
+
+}
+
+h3 {
+  color: #E1624F;
+  font-size: 16px;
+}
+
+h4 {
+  color: #E1624F;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #D9D9D9;
+}
+
+#card-travel img {
+  height: 350px;
+}
+
+ul li {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+#description-foto p {
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+}
